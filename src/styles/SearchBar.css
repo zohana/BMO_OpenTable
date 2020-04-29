@@ -1,0 +1,95 @@
+.searchBar-primary {
+  width: 100%;
+  /* height: 80vh; */
+  height: 26rem;
+  background-color: red;
+  position: absolute;
+  background-image: url("../images/banner_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchBar-form {
+  margin: calc(10% - 50px) auto auto auto;
+  width: 53%;
+}
+
+.searchBar-inputWrapper > div > p {
+  color: white;
+}
+
+.searchBar-inputField,
+.searchBar-advanceSearch {
+  width: 60%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 0 6px 18px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.searchBar-advanceSearch {
+  margin-bottom: 2em;
+}
+
+.searchBar-submitButton {
+  padding: 0.8em 4em;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: -1em;
+  background-color: #cc0000;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 981px) {
+  .searchBar-form {
+    margin: calc(14% - 50px) auto auto auto;
+    width: 83%;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 721px) {
+  .searchBar-primary {
+    height: 80vh;
+  }
+  .searchBar-form {
+    margin: calc(14% - 5%) auto auto auto;
+    width: 83%;
+  }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 521px) {
+  .searchBar-form {
+    margin: calc(18% - 2%) auto auto auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) and (min-width: 321px) {
+  .searchBar-form {
+    margin: calc(159px - 50px) auto auto auto;
+    width: 100%;
+  }
+
+  .searchBar-inputField,
+  .searchBar-advanceSearch {
+    width: 87%;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .searchBar-form {
+    margin: calc(159px - 50px) auto auto auto;
+    width: 100%;
+  }
+
+  .searchBar-inputField,
+  .searchBar-advanceSearch {
+    width: 87%;
+    height: 40px;
+  }
+}

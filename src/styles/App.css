@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-results {
+  padding: 1em 0 1em 0;
+  position: relative;
+  top: 441px;
+}
+
+.app-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1em 2em;
+  grid-row-end: 10px;
+  width: 92%;
+  margin: 0 auto;
+}

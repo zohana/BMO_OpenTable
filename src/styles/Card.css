@@ -1,0 +1,24 @@
+.card-wrapper {
+  width: 100%;
+  height: auto;
+  border: 1px solid #f2f2f2;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+/* .card-info-containter {
+  width: 100%;
+  text-align: left;
+  margin-left: 2em;
+} */
+
+.card-image-containter,
+.card-image-containter > img {
+  width: 100%;
+}
+
+.card-info-containter > h4 > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
